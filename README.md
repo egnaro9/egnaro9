@@ -14,5 +14,6 @@ Self-taught over ~6 months (a career change from professional kitchens). Solo, I
 - 🌐 Portfolio — https://egnaro9.github.io
 - 📐 Architecture case study — https://github.com/egnaro9/agentic-dev-harness
 - 💼 LinkedIn — https://linkedin.com/in/erik-hill-98895575
+- ✍️ dev.to — https://dev.to/egnaro9
 
 *Open to remote (US) roles in agentic / AI / evals engineering.*
