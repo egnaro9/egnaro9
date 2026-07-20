@@ -2,7 +2,7 @@
 
 **Agentic AI engineer.** I build AI systems that check their own work — and keep a human on every step that can't be undone.
 
-Self-taught, in under a year, after six years in professional kitchens. In that time I **shipped a game to Google Play**, built a bigger one, wrote an autonomous development harness that builds it, and published the repos below — including a deployed FastAPI + Postgres service my CI posts eval runs to.
+Self-taught, in under a year, after six years in professional kitchens. I wrote an **operator-supervised, multi-agent development harness** that plans, builds, reviews, and validates its own changes behind a machine-checkable evidence trail — [read the architecture case study](https://github.com/egnaro9/agentic-dev-harness). Along the way I **shipped a game to Google Play**, merged a fix into a 12-year-old compiler, and published the repos below — including a deployed FastAPI + Postgres service my CI posts eval runs to.
 
 **▶ [egnaro9.github.io](https://egnaro9.github.io)** — the portfolio, where most of this is live and clickable in your browser.
 
@@ -30,8 +30,8 @@ The wrong character dates to a June 2014 commit about `SimpleDateFormat` tests, 
 - 🚦 **[prompt-regress](https://github.com/egnaro9/prompt-regress)** — a **does-my-prompt-still-work merge gate**: runs your eval on every PR, compares it to the main-branch baseline in eval-history, comments the verdict, and **blocks the merge on a regression**. Fills a gap promptfoo leaves open; ships a GitHub Action and gates my own repos.
 - 🔌 **[mcp-tools](https://github.com/egnaro9/mcp-tools)** — a **Model Context Protocol** server implemented from the spec (JSON-RPC over stdio, no SDK, zero dependencies), exposing **five tools**: an AST-sandboxed calculator (OWASP LLM06), BM25 search, a **no-LLM-judge answer grader** that names the sentences your sources don't support, and read-only lookups against the drift board and eval-history — so an agent can **check its own work before it answers**. *Testable without a client* by speaking the real handshake to it in a subprocess.
 - ⚖️ **[evals-differential-oracle](https://github.com/egnaro9/evals-differential-oracle)** — the same logic written twice, fuzzed for disagreements. Where two independent implementations disagree, one is wrong — no gold labels needed.
-- 🎲 **[match3-engine](https://github.com/egnaro9/match3-engine)** — the rules engine from my second game, held to 16 **jqwik** property invariants and compiled to the browser via **TeaVM**. Porting it caught a `System.nanoTime()` bug the JVM couldn't show.
-- 🛠️ **[agentic-dev-harness](https://github.com/egnaro9/agentic-dev-harness)** — a concepts-only case study of the harness: a self-reviewing loop (Strategy → Execution → Critic → Eval → Ops), a differential-oracle testing strategy, and a human-in-the-loop autonomy ladder.
+- 🎲 **[match3-engine](https://github.com/egnaro9/match3-engine)** — a standalone match-3 rules engine, held to 16 **jqwik** property invariants and compiled to the browser via **TeaVM**. Porting it caught a `System.nanoTime()` bug the JVM couldn't show.
+- 🛠️ **[agentic-dev-harness](https://github.com/egnaro9/agentic-dev-harness)** — the architecture case study of the harness: a self-reviewing loop (Strategy → Execution → Critic → Eval → Ops), a **cold, independent critic**, a differential-oracle testing strategy, a **NO-PROOF-NO-CLOSE** evidence trail, and a human-in-the-loop autonomy ladder.
 
 **Find me**
 - 🌐 Portfolio — https://egnaro9.github.io
