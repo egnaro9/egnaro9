@@ -6,6 +6,10 @@ Self-taught, in under a year, after six years in professional kitchens. I wrote 
 
 **▶ [egnaro9.github.io](https://egnaro9.github.io)** — the portfolio, where most of this is live and clickable in your browser.
 
+<a href="https://egnaro9.github.io/#tour"><img src="https://egnaro9.github.io/media/portfolio-tour-poster.jpg" width="640" alt="Watch the 90-second portfolio tour"></a>
+
+*▶ A narrated **90-second tour** through the harness, the live board, and the ten repos — [watch it here](https://egnaro9.github.io/#tour).*
+
 ---
 
 **A merged fix in [TeaVM](https://github.com/konsoletyper/teavm)** — the Java-to-JavaScript compiler, twelve years old, ~3,000 stars. I use TeaVM to ship a Java game engine to the browser, so I went looking for places where the port and the JVM quietly disagree. [**PR #1213**](https://github.com/konsoletyper/teavm/pull/1213): one character in `TGregorianCalendar` — `days - 2`, where the line directly above it and the branch beside it both use `days - 3`. The project lead merged it about nine hours after I opened it, closing an issue open since 2018 with no comments on it.
