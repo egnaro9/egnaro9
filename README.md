@@ -10,6 +10,8 @@ Self-taught, in under a year, after six years in professional kitchens. I wrote 
 
 *▶ A narrated **90-second tour** through the harness, the live board, and the ten repos — [watch it here](https://egnaro9.github.io/#tour).*
 
+🎮 **Shipped:** my first game, **Tap Dodge Rush**, is live on Google Play — &nbsp;<a href="https://play.google.com/store/apps/details?id=com.seraphlight.tapdodgerush"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="52"></a>
+
 ---
 
 **A merged fix in [TeaVM](https://github.com/konsoletyper/teavm)** — the Java-to-JavaScript compiler, twelve years old, ~3,000 stars. I use TeaVM to ship a Java game engine to the browser, so I went looking for places where the port and the JVM quietly disagree. [**PR #1213**](https://github.com/konsoletyper/teavm/pull/1213): one character in `TGregorianCalendar` — `days - 2`, where the line directly above it and the branch beside it both use `days - 3`. The project lead merged it about nine hours after I opened it, closing an issue open since 2018 with no comments on it.
