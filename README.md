@@ -1,6 +1,6 @@
 ### Hi, I'm Erik 👋
 
-**Agentic AI engineer.** I build AI systems that check their own work — and keep a human on every step that can't be undone.
+**AI evaluation & testing engineer.** I build the tests that catch AI when it's wrong — deterministic graders, not a model grading itself — and keep a human on every step that can't be undone.
 
 Self-taught, in under a year, after six years in professional kitchens. I wrote an **operator-supervised, multi-agent development harness** that plans, builds, reviews, and validates its own changes behind a machine-checkable evidence trail — [read the architecture case study](https://github.com/egnaro9/agentic-dev-harness). Along the way I **shipped a game to Google Play**, merged a fix into a 12-year-old compiler, and published the repos below — including a deployed FastAPI + Postgres service my CI posts eval runs to.
 
@@ -47,4 +47,4 @@ The wrong character dates to a June 2014 commit about `SimpleDateFormat` tests, 
 - ✍️ dev.to — https://dev.to/egnaro9
 - 🐦 X — https://x.com/AgentDev9
 
-*Open to remote (US) roles in agentic / AI / evals engineering.*
+*Open to remote (US) roles in AI evaluation, ML test / SDET, backend, or applied AI engineering.*
