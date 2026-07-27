@@ -44,7 +44,7 @@ The wrong character dates to a June 2014 commit about `SimpleDateFormat` tests, 
 - 🌐 Portfolio — https://egnaro9.github.io
 - 🎮 SeraphLight Studios — https://egnaro9.github.io/seraphlight-studios/
 - 💼 LinkedIn — https://linkedin.com/in/erik-hill-98895575
-- ✍️ dev.to — https://dev.to/egnaro9
+- ✍️ dev.to — https://dev.to/AgentDev9
 - 🐦 X — https://x.com/AgentDev9
 
 *Open to remote (US) roles in AI evaluation, ML test / SDET, backend, or applied AI engineering.*
