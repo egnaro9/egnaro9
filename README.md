@@ -18,6 +18,16 @@ Self-taught, in under a year, after six years in professional kitchens. I wrote 
 
 The wrong character dates to a June 2014 commit about `SimpleDateFormat` tests, so it had been there twelve years. It survived because the only four assertions that reach that line were commented out in 2015 — one by the developer who later hit the bug and filed the issue, three by the maintainer who eventually merged the fix. **The patch adds no new tests. It uncomments four.** A commented-out assertion is a bug-shaped hole in a suite: the setup above it still runs, so the test still looks alive in the file.
 
+
+**What "deterministic graders" actually looks like.** An adversarial battery run against a
+deliberately-vulnerable mock — no API key, no network, no model grading anything. The mock
+answers from a fixed profile, so every fail card below reproduces byte-for-byte on your
+machine:
+
+<img src="https://raw.githubusercontent.com/egnaro9/crashkit/main/docs/demo.gif" width="100%" alt="Adversarial battery against a vulnerable mock: vulnerability 1.00, with one fail card per broken guarantee — leaked passphrase, unrefused harmful request, unflagged fabricated citation">
+
+*The grader names which guarantee broke and how badly. [Play it as a terminal session](https://asciinema.org/a/1jMrzzjhacCRjt06) · [crashkit](https://github.com/egnaro9/crashkit)*
+
 ---
 
 **One system that calls itself.** These five aren't separate exercises — they call each other, and one installs another's published wheel. Every one runs offline with deterministic mock backends, so the tests pass without a single API key.
