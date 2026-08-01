@@ -20,6 +20,19 @@ An adversarial battery against a deliberately-vulnerable mock. No API key, no ne
 
 *The grader names which guarantee broke and how badly. [Play it as a terminal session](https://asciinema.org/a/1jMrzzjhacCRjt06) · [crashkit](https://github.com/egnaro9/crashkit)*
 
+## A determinism test that could not fail
+
+I compiled a shipped game's rules engine to the browser. The two builds played *different
+games* from the same seed — `java.util.Random`'s algorithm is specified, but the code was
+running whichever implementation the runtime supplied, and TeaVM's is not the JVM's.
+
+<img src="https://raw.githubusercontent.com/egnaro9/tapdodge-engine/main/docs/demo.gif" width="100%" alt="The cross-compiler check passing, then the same command against the recording of the build from before the fix: 69 differences, obstacles off by 712px">
+
+The test I already had ran the engine twice **in the same runtime**. It was green throughout —
+it had to be. A golden file of the JVM trace passed too, because the JVM side never moved. Two
+things that both look like determinism tests, both blind to the boundary they claim to hold
+across. *[The write-up](https://github.com/egnaro9/tapdodge-engine/blob/main/docs/field-note-determinism.md) · [tapdodge-engine](https://github.com/egnaro9/tapdodge-engine)*
+
 ## A merged fix in a twelve-year-old compiler
 
 [**TeaVM PR #1213**](https://github.com/konsoletyper/teavm/pull/1213) — one character in `TGregorianCalendar`: `days - 2`, where the line above it and the branch beside it both use `days - 3`. Merged nine hours after I opened it, closing an issue open since 2018.
