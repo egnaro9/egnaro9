@@ -63,7 +63,9 @@ These five aren't separate exercises — they call each other, and one installs 
 
 🎮 **[Tap Dodge Rush](https://play.google.com/store/apps/details?id=com.seraphlight.tapdodgerush)** — my first game, live on Google Play under [SeraphLight Studios](https://egnaro9.github.io/seraphlight-studios/). Two weeks of closed testing, then review, then shipped. &nbsp;<a href="https://play.google.com/store/apps/details?id=com.seraphlight.tapdodgerush"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="40"></a>
 
-🎲 **[match3-engine](https://github.com/egnaro9/match3-engine)** — the rules engine behind it, held to 16 **jqwik** property invariants and compiled to the browser via TeaVM. Porting it caught a `System.nanoTime()` bug the JVM couldn't show.
+⚙️ **[tapdodge-engine](https://github.com/egnaro9/tapdodge-engine)** — the game's rules, lifted into a module with no Android on its classpath and compiled twice: `javac` for the app, TeaVM for the browser. A differential test replays one scripted run through both and diffs the traces — written because the two had already drifted, and the existing determinism test could not see it. **[Play it](https://egnaro9.github.io/seraphlight-studios/tap-dodge-rush/play/)**.
+
+🎲 **[match3-engine](https://github.com/egnaro9/match3-engine)** — a separate engine, for an unreleased match-3 game: 16 **jqwik** property invariants, compiled to the browser via TeaVM. Porting it caught a `System.nanoTime()` bug the JVM couldn't show.
 
 ## Find me
 
