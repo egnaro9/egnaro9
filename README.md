@@ -2,7 +2,8 @@
 
 **Agent Release Readiness.** I build the infrastructure that decides whether an AI system is ready to ship: capability contracts, integrity gates, and replayable evidence — deterministic graders, never a model grading itself.
 
-**Do not trust us — run it.** Every claim below ships as a replayable evidence bundle: sha256-pinned artifacts, mandatory limitations, and the exact commands to re-earn every verdict offline. [REPLAY_REQUEST.md](https://github.com/egnaro9/vac-protocol/blob/main/REPLAY_REQUEST.md) is the ten-minute falsification path — no API keys, no GPU, and if you break something it gets published, not buried.
+**Do not trust us — run it.** The suite members below ship their claims as replayable evidence bundles — sha256-pinned, limitations mandatory, verdicts re-earnable offline — and the protocol rows are the machinery that checks them.
+The format: sha256-pinned artifacts, mandatory limitations, and the exact commands to re-earn every verdict offline. [REPLAY_REQUEST.md](https://github.com/egnaro9/vac-protocol/blob/main/REPLAY_REQUEST.md) is the ten-minute falsification path — no API keys, no GPU, and if you break something it gets published, not buried.
 
 ## The suite
 
