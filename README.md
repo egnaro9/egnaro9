@@ -1,4 +1,6 @@
-### Hi, I'm Erik 👋
+#**New:** [agent-hub](https://github.com/egnaro9/agent-hub) — the constellation console, now public: an interactive galaxy over this whole fleet, with a sun whose brightness is the live registry count and a black hole you can only infer. [Fly it.](https://agent-hub-exiz.onrender.com)
+
+## Hi, I'm Erik 👋
 
 **Agent Release Readiness.** I build the infrastructure that decides whether an AI system is ready to ship: capability contracts, integrity gates, and replayable evidence — deterministic graders, never a model grading itself.
 
