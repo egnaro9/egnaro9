@@ -1,4 +1,4 @@
-#**New:** [agent-hub](https://github.com/egnaro9/agent-hub) — the constellation console, now public: an interactive galaxy over this whole fleet, with a sun whose brightness is the live registry count and a black hole you can only infer. [Fly it.](https://agent-hub-exiz.onrender.com)
+**New:** [agent-hub](https://github.com/egnaro9/agent-hub) — the constellation console, now public: an interactive galaxy over this whole fleet, with a sun whose brightness is the live registry count and a black hole you can only infer. [Fly it.](https://agent-hub-exiz.onrender.com)
 
 ## Hi, I'm Erik 👋
 
