@@ -6,7 +6,7 @@ vac-protocol's README and the profile README's suite table).
 
 | # | Repo | Rationale |
 | --- | --- | --- |
-| 1 | **vac-protocol** | The trust layer over everything else — protocol, stdlib-only verifier, and the live registry (11 accepted claims, 5 issuers); the right first thing a stranger reads. |
+| 1 | **vac-protocol** | The trust layer over everything else — protocol, stdlib-only verifier, and the live registry (9 accepted claims, 3 issuers); the right first thing a stranger reads. |
 | 2 | **agent-certlab** | The flagship application: capability contracts for coding agents with replayable evidence, including one earned entirely inside GitHub Actions. |
 | 3 | **reference-fleet** | The answer key — six certified defect models plus the live audit board; the most self-explanatory demo of "measure the benchmark". |
 | 4 | **evalmut** | The method the program grew from: mutation testing for eval graders, with the paper in-repo; anchors the launch posts. |
