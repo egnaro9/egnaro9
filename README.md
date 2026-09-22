@@ -16,7 +16,7 @@ The format: sha256-pinned artifacts, mandatory limitations, and the exact comman
 | **[reference-fleet](https://github.com/egnaro9/reference-fleet)** | Certified reference models: six deterministic models, each broken in exactly **one documented way** at a stated, seeded rate — point a benchmark at the fleet and you measure the benchmark. [**Audit board**](https://erikhill.dev/reference-fleet/). |
 | **[evalmut](https://github.com/egnaro9/evalmut)** | Mutation testing for eval graders: inject a known defect mined from a real failure into an output your grader passed — if the grader stays green, that hole ships green. No LLM-as-judge. [**Paper**](https://github.com/egnaro9/evalmut/blob/main/paper/evalmut.pdf). |
 | **[model-drift](https://github.com/egnaro9/model-drift)** | A live public board tracking 16 LLMs with a frozen suite on a schedule; no LLM-as-judge, so a score that moves means the model moved. [**Board**](https://erikhill.dev/model-drift/). |
-| **[crashkit](https://github.com/egnaro9/crashkit)** | Adversarial crash-testing with deterministic grading and a severity-weighted report. Bring your own key — it never touches the server; verify that in the Network tab. [**Live**](https://crashkit.onrender.com). |
+| **[crashkit](https://github.com/egnaro9/crashkit)** | Adversarial crash-testing with deterministic grading and a severity-weighted report. Bring your own key — it never touches the server; verify that in the Network tab. [**Live**](https://crashkit.erikhill.dev). |
 | **[vac-gate](https://github.com/egnaro9/vac-gate)** | The integrity gate as a composite GitHub Action: no verified capability contract, no green check. Optionally re-earns verdicts from the pinned issuer commit — "cannot regrade" is not "regraded". |
 
 ## Launch posts
