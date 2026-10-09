@@ -26,7 +26,7 @@ The format: sha256-pinned artifacts, mandatory limitations, and the exact comman
 
 ## Elsewhere
 
-Everything else is at [**erikhill.dev**](https://erikhill.dev) — including a merged one-character fix in a twelve-year-old compiler ([TeaVM PR #1213](https://github.com/konsoletyper/teavm/pull/1213)) and a game shipped to [Google Play](https://play.google.com/store/apps/details?id=com.seraphlight.tapdodgerush).
+Everything else is at [**erikhill.dev**](https://erikhill.dev) — including two merged PRs to [promptfoo](https://github.com/promptfoo/promptfoo) (25.8k stars), a BLEU scoring fix ([#11278](https://github.com/promptfoo/promptfoo/pull/11278)) and the `rouge-l`/`rouge-s` assertion types ([#10256](https://github.com/promptfoo/promptfoo/pull/10256)); a merged one-character fix in a twelve-year-old compiler ([TeaVM PR #1213](https://github.com/konsoletyper/teavm/pull/1213)); and a game shipped to [Google Play](https://play.google.com/store/apps/details?id=com.seraphlight.tapdodgerush).
 
 [Portfolio](https://erikhill.dev) · [LinkedIn](https://linkedin.com/in/erik-hill-98895575) · [dev.to](https://dev.to/AgentDev9) · [X](https://x.com/AgentDev9)
 
